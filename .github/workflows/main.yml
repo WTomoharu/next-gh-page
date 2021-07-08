@@ -18,16 +18,16 @@ jobs:
         with:
           node-version: 14.x
 
-      - name: Install NPM packages
-        run: npm ci
+      - name: Install NPM packages (use Yarn)
+        run: yarn install --frozen-lockfile
 
       - name: Build Next.js app
-        run: npm run build
+        run: yarn run build
         env:
           URL_PREFIX: next-gh-page
 
       - name: Export Next.js app
-        run: npm run export
+        run: yarn run export
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
