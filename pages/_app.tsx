@@ -3,6 +3,8 @@ import { AppProps } from 'next/app';
 import Head from 'next/head';
 import Link from 'next/link';
 
+import '../styles/globals.css';
+
 const Nav = () => (
   <nav>
     <Link href="/">Index</Link>
