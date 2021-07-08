@@ -1,7 +1,7 @@
 const Page = () => {
   return (
     <div>
-      <h1>Hello next and gh-pages!</h1>
+      <h1>This is About Page.</h1>
     </div>
   )
 }
