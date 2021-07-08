@@ -1,7 +1,7 @@
 const Page = () => {
   return (
     <div>
-      <h1>Hello next and gh-pages!</h1>
+      <p className="text-4xl">Hello next and gh-pages!</p>
     </div>
   )
 }

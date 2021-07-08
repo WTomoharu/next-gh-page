@@ -34,10 +34,10 @@ const App = ({ Component, pageProps }: AppProps) => {
         <title>Next-GH-Pages</title>
       </Head>
 
-      <>
+      <div className="p-2">
         <Nav />
         <Component {...pageProps} />
-      </>
+      </div>
     </>
   )
 }
