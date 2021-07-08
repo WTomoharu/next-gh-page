@@ -7,6 +7,7 @@ const Nav = () => (
   <nav>
     <Link href="/">Index</Link>
     {' | '}
+    <Link href="/about">About</Link>
   </nav>
 )
 
